@@ -1,0 +1,45 @@
+n = int(input("Masukkan jumlah mahasiswa: "))
+
+A = 0
+
+B = 0
+
+C = 0
+
+D = 0
+
+E = 0
+
+for i in range(n):
+
+    nilai = int(input("Masukkan nilai mahasiswa: "))
+
+    if nilai >= 80:
+
+        A += 1
+
+    elif nilai >= 70:
+
+        B += 1
+
+    elif nilai >= 60:
+
+        C += 1
+
+    elif nilai >= 50:
+
+        D += 1
+
+    else:
+
+        E += 1
+
+print("Jumlah mahasiswa dengan nilai A:", A)
+
+print("Jumlah mahasiswa dengan nilai B:", B)
+
+print("Jumlah mahasiswa dengan nilai C:", C)
+
+print("Jumlah mahasiswa dengan nilai D:", D)
+
+print("Jumlah mahasiswa dengan nilai E:", E)
